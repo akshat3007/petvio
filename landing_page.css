@@ -1,0 +1,100 @@
+body{
+  overflow-x: hidden;
+}
+.navbarcss{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+.brand-name{
+  display: inline;
+  padding: 23px 0 0 125px;
+}
+.name{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: bold;
+  font-size: 2.0rem;
+}
+.navitem-p{
+  display: inline;
+  padding-top: 28px;
+}
+.nav-elements{
+  display: inline;
+  margin: 50px 20px;
+  align-items: center;
+  font-family: 'Amaranth', sans-serif;
+  font-size: 1rem;
+}
+.down-arrow{
+  position: absolute;
+  left: 50%;
+}
+.dropdown{
+  display: inline;
+}
+.dropdown a{
+  text-decoration: none;
+  color: #000000;
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  width: 100%;
+  left: 44%;
+  padding-top: 20px;
+}
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+.dropdown-content a{
+  display: block;
+}
+.nav-actions{
+  display: inline;
+  padding: 23px 100px 0 0;
+}
+.actions-css{
+  margin-left: 30px;
+}
+#introduction{
+  padding: 40px 50px 700px 50px;
+  width: 100%;
+  background-color: #FBF2CF;
+  overflow: hidden;
+
+}
+.intro-text{
+  padding-left: 70px;
+  display: inline;
+  position: absolute;
+  width: 50%;
+}
+.heading1{
+  width: 90%;
+  font-size: 5rem;
+  font-family: 'Ubuntu', sans-serif;
+}
+.para1{
+  font-family: 'Mukta', sans-serif;
+  width: 60%;
+  padding-bottom: 20px;
+}
+.explore-now{
+  position: absolute;
+
+  left: 8.5%;
+  border: none;
+  background-color: #000000;
+  padding: 0.7rem 1.2rem;
+  border-radius: 1.5rem;
+  font-family: 'Mukta', sans-serif;
+  color: #ffffff;
+  font-weight: bold;
+}
+.intro-image{
+  display: inline;
+  position: absolute;
+  left: 50%;
+
+}
